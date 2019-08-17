@@ -1,12 +1,3 @@
-# docsify 使用手册采用markdown语法编辑
-
-> 一个神奇的文档站点生成器
-
-!> 建议docsify-cli全局安装，这有助于在本地初始化和预览网站。
-
-        npm i docsify-cli -g
-        docsify serve //启动
-
 ## Markdown 语法的简要规则
 
 * 一段重要的内容，可以和其他 **Markdown** 语法混用。   [Markdown](/demo':target=_blank')
@@ -99,3 +90,7 @@ markdown的表格比较累人
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
+
+#### 官网地址
+
+> [官网链接](https://docsify.js.org/#/zh-cn/)

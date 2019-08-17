@@ -1,0 +1,21 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "> 一个神奇的文档站点生成器",
+  "main": "sw.js",
+  "scripts": {
+    "dev": "docsify serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/step-city/docsify-use.git"
+  },
+  "keywords": [],
+  "author": "guonn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/step-city/docsify-use/issues"
+  },
+  "homepage": "https://github.com/step-city/docsify-use#readme"
+}
