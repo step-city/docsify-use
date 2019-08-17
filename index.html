@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 </head>
 <style>
@@ -17,12 +19,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
   section.cover .cover-main img {
     display: inline-block;
     width: 500px;
     height: 300px;
     border-radius: 50px;
   }
+
   .sidebar img {
     display: inline-block;
     width: 100px;
@@ -30,33 +34,39 @@
     border-radius: 50px;
   }
 </style>
+
 <body>
-    <!-- 自定义导航栏 -->
-    <!-- <nav> 
+  <!-- 自定义导航栏 -->
+  <!-- <nav> 
         <a href="#/">EN</a>
         <a href="#/zh-cn/">中文</a>
     </nav> -->
-  <div id="app"><div class="loading">加载中...</div></div>
+  <div id="app">
+    <div class="loading">加载中...</div>
+  </div>
   <script>
     window.$docsify = {
       el: '#app',
       name: 'docsify在线文档',//侧边栏标题
       repo: 'docsifyjs/docsify',//配置仓库地址
       loadSidebar: true, //定制侧边栏
-      subMaxLevel: 2,//显示目录
+      subMaxLevel: 3,//显示目录
       loadNavbar: true,//定制导航栏
       coverpage: true,//开启封面
+      coverpage: {
+        '/': '_coverpage.md',
+      },
       maxLevel: 4, //最大支持渲染的标题层级
       auto2top: true, //切换页面后是否自动跳转到页面顶部
       homepage: 'home.md',
       logo: '/_media/icon.jpg',
       nameLink: '/',
       copyCode: {
-        buttonText : {
+        buttonText: {
           'home': '点击复制',
-          '/':'copy Code',
+          '/': 'copy Code',
         },
-        errorText  : 'copy Error',
+        errorText: 'copy Error',
         successText: 'copy Successed!'
       },
       pagination: {
@@ -69,12 +79,13 @@
   <script>
     // 离线模式serviceWorker
     if (typeof navigator.serviceWorker !== 'undefined') {
-      // navigator.serviceWorker.register('sw.js')
+      navigator.serviceWorker.register('sw.js')
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <!-- 复制到剪贴板 -->
-  <script src="//unpkg.com/docsify-copy-code"></script> 
+  <script src="//unpkg.com/docsify-copy-code"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
+
 </html>

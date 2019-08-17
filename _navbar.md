@@ -1,4 +1,4 @@
-* [中文](/zh-cn/)
+* [中文](home)
 * [En](/en/)
 * 基础
   * [快速开始](zh-cn/quickstart.md)

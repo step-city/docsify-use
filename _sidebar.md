@@ -1,2 +1,2 @@
 * [首页](home)
-* [指南](zh-cn/guide)
+* [任务列表](zh-cn/guide)
