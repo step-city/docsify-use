@@ -1,14 +1,11 @@
-# Headline
 
-> 对于js方法的一些运用
+## 启动服务命令
 
-``` javascript
-fetchData() {
-    Array.map(item =>{
-        if(item === '合格'){
-            return item;
-        }
-    })
-}
-```
-## 测试标题
+!> 建议docsify-cli全局安装，这有助于在本地初始化和预览网站。
+
+        npm i docsify-cli -g
+        docsify serve //启动
+
+## 访问网址
+
+> https://step-city.github.io/docsify-use/
